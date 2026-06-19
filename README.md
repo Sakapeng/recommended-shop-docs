@@ -1,5 +1,7 @@
 # 推三返一商城 (recommended-shop)
 
+> **项目合作，添加微信：shijianbubu**
+
 基于微信小程序 + Node.js 后端 + Vue 管理后台的社交电商平台，核心采用**「推三返一」裂变模式**实现用户自增长。
 
 微信小程序前端使用 **uni-app** 跨平台框架开发，一套代码可同时发布到微信小程序、H5、Android App、iOS App 以及其他主流平台，具备极强的扩展性和多端覆盖能力。
@@ -471,7 +473,7 @@ npm run dev:mp-weixin   # 编译为微信小程序
 **Webhook 配置**：
 - 消息类型：买家视角的发货通知
 - 发送通道：HTTP Callback
-- 回调地址：`POST https://api.antsbrostore.cn/api/1688/webhook/sendgoods`
+- 回调地址：`POST https://your-domain.com/api/1688/webhook/sendgoods`
 - 触发条件：1688 卖家点击"发货"后立即推送
 
 **完整物流链路**：
@@ -539,23 +541,25 @@ POST /api/1688/webhook/sendgoods
 
 ---
 
-##  应用截图
+## 📸 应用截图
 
 ### 小程序端
 
-![首页 - 轮播图、分类导航、热门推荐](docs/screenshots/1.jpg)
+| 首页 - 轮播图、分类导航、热门推荐 | 9.9元专区 - 价格档位商品列表 |
+|:---:|:---:|
+| ![首页](docs/screenshots/1.jpg) | ![9.9元专区](docs/screenshots/2.jpg) |
 
-![9.9元专区 - 价格档位商品列表](docs/screenshots/2.jpg)
+| 商品分类 - 4级树形分类 | 推三返一 - 裂变规则与邀请进度 |
+|:---:|:---:|
+| ![商品分类](docs/screenshots/3.jpg) | ![推三返一](docs/screenshots/4.jpg) |
 
-![商品分类 - 4级树形分类](docs/screenshots/3.jpg)
-
-![推三返一 - 裂变规则与邀请进度](docs/screenshots/4.jpg)
-
-![购物车 - 商品选择与结算](docs/screenshots/5.jpg)
-
-![我的 - 个人中心与返现/消费券入口](docs/screenshots/6.jpg)
+| 购物车 - 商品选择与结算 | 我的 - 个人中心与返现/消费券入口 |
+|:---:|:---:|
+| ![购物车](docs/screenshots/5.jpg) | ![我的](docs/screenshots/6.jpg) |
 
 ---
+
+> **项目合作，添加微信：shijianbubu**
 
 ## 📄 License
 
